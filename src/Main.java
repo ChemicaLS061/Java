@@ -128,7 +128,7 @@ public class Main {
                             flagI += 1;}
                     if (aCode == 86 && flagI <= 1) flagV += 1;
                     if (aCode == 88 && flagI <= 1) flagX += 1;
-                    } else throw new IOException();    //Изменить на ошибку
+                    } else throw new IOException();
                 }
                 if(a!=0) {
                     b += convertRimArab(element);
